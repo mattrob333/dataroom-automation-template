@@ -1,38 +1,22 @@
-# Data Room Outputs
-output/
-dataroom/
-*.pdf
-*.xlsx
-*.xls
-
-# Research Data
+# Data room outputs
+dataroom-*/
 research/
-*.json
+analysis/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-env/
-venv/
-.venv
+# System files
+.DS_Store
+Thumbs.db
 
-# IDE
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
-
 # Logs
 *.log
 
-# Temporary files
+# Temp files
 tmp/
 temp/
-.tmp/
