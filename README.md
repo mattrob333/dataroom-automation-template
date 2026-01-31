@@ -1,27 +1,25 @@
-# 🏢 Data Room Automation Template
+# 📊 Data Room Automation Template
 
-**Transform a company URL into a complete data room in minutes using AI**
+**Turn a company URL into a complete data room with AI**
 
-This repository contains a complete workflow template for automatically generating comprehensive data room documents using Claude Code and AI agents.
+This repository contains a reusable workflow template for generating comprehensive data room documents using Claude Code and AI agents.
 
 ## 🎯 What This Does
 
-Given just a **company URL or name**, this workflow will:
-- Research the company comprehensively
-- Generate 20+ professional data room documents
-- Create financial models and projections
-- Perform competitive analysis
-- Build risk assessments
-- Generate legal and compliance documentation
+Give Claude Code a company URL or name, and this workflow automatically generates:
 
-## 📋 Quick Start
+- Executive Summary
+- Market Analysis
+- Financial Overview
+- Risk Assessment
+- Due Diligence Checklist
+- Cap Table Analysis
+- Product/Technology Overview
+- Team & Organizational Structure
+- Legal & Compliance Review
+- And more...
 
-### Prerequisites
-- Claude Code or Claude API access
-- Web search capability (for company research)
-- Optional: Access to company databases, financial APIs
-
-### Usage
+## 🚀 Quick Start
 
 1. **Clone this repository**
    ```bash
@@ -29,89 +27,86 @@ Given just a **company URL or name**, this workflow will:
    cd dataroom-automation-template
    ```
 
-2. **Run the workflow**
-   
-   In Claude Code, use the main orchestrator prompt:
+2. **Open in Claude Code**
+   - Launch Claude Code
+   - Open this directory
+
+3. **Run the workflow**
    ```
-   I need you to create a complete data room for [COMPANY_NAME] at [COMPANY_URL]. 
-   Follow the workflow in ORCHESTRATOR_PROMPT.md
+   Generate a data room for [Company Name/URL]
    ```
 
-3. **Review and customize**
-   - Documents are generated in `output/` directory
-   - Review and edit as needed
-   - Templates are in `templates/` directory
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```
 dataroom-automation-template/
-├── README.md                          # This file
-├── ORCHESTRATOR_PROMPT.md            # Main workflow orchestration prompt
-├── WORKFLOW_GUIDE.md                 # Detailed workflow explanation
-├── agents/                           # Sub-agent configurations
-│   ├── research_agent.md
-│   ├── financial_agent.md
-│   ├── legal_agent.md
-│   └── technical_agent.md
-├── templates/                        # Document templates
-│   ├── executive_summary.md
-│   ├── business_overview.md
-│   ├── financial_model.md
-│   ├── market_analysis.md
-│   ├── technical_assessment.md
-│   ├── legal_documents.md
-│   └── ... (20+ templates)
-├── prompts/                          # Specialized prompts
-│   ├── research_prompts.md
-│   ├── analysis_prompts.md
-│   └── generation_prompts.md
-├── tools/                            # Tool configurations
-│   ├── web_search_config.md
-│   ├── data_extraction_config.md
-│   └── document_generation_config.md
-└── examples/                         # Example outputs
-    └── sample_dataroom/
+├── README.md                    # This file
+├── WORKFLOW.md                  # Complete workflow methodology
+├── USAGE.md                     # Step-by-step usage instructions
+├── prompts/                     # Prompt templates
+├── templates/                   # Document templates
+├── agents/                      # Agent configurations
+└── examples/                    # Example outputs
 ```
 
-## 🔧 Customization
+## 🤖 How It Works
 
-### Modify Templates
-Edit files in `templates/` to customize document formats and sections.
+### Phase 1: Research & Data Collection
+- Web search for company information
+- Scrape company website, pitch deck, financial docs
+- Gather competitive intelligence
+- Collect market data
 
-### Adjust Workflow
-Modify `ORCHESTRATOR_PROMPT.md` to change the workflow steps or add/remove documents.
+### Phase 2: Analysis & Processing
+- Analyze financial metrics
+- Assess market position
+- Evaluate risks
+- Review team & technology
 
-### Configure Agents
-Update agent prompts in `agents/` to change research depth or analysis style.
+### Phase 3: Document Generation
+- Generate all data room documents
+- Ensure consistency across documents
+- Format professionally
+- Create master index
 
-## 📚 Documentation
+## 📝 Usage Examples
 
-- **[ORCHESTRATOR_PROMPT.md](ORCHESTRATOR_PROMPT.md)** - Main workflow prompt
-- **[WORKFLOW_GUIDE.md](WORKFLOW_GUIDE.md)** - Detailed step-by-step guide
-- **[agents/](agents/)** - Sub-agent documentation
-- **[templates/](templates/)** - Document templates
+### Basic Usage
+```
+Hey Claude, generate a data room for Anthropic
+```
 
-## 🚀 Features
+### With URL
+```
+Generate a data room for https://stripe.com
+```
 
-- ✅ Fully automated company research
-- ✅ 20+ professional document templates
-- ✅ Financial modeling and projections
-- ✅ Competitive analysis
-- ✅ Risk assessment
-- ✅ Legal and compliance documentation
-- ✅ Customizable templates
-- ✅ Parallel processing with sub-agents
-- ✅ Quality validation
+### Custom Focus
+```
+Create a data room for [Company] focusing on financial metrics and risk assessment
+```
 
-## 🤝 Contributing
+## 🔧 Requirements
 
-Feel free to submit issues or pull requests to improve this template!
+- Claude Code (latest version)
+- Internet access for web research
+- Web Search capabilities enabled
+
+## 💡 Tips
+
+1. **Provide context**: The more information you give, the better the output
+2. **Iterate**: Review and refine documents as needed
+3. **Customize**: Adapt templates to your specific use case
+4. **Save outputs**: Export generated documents for reuse
 
 ## 📄 License
 
-MIT License - feel free to use and modify for your needs.
+MIT License - feel free to use and modify for your needs
 
 ## 🙏 Credits
 
-Created with Claude Code and Anthropic's AI capabilities.
+Built with Claude Code and Anthropic's AI agents
+
+---
+
+**Ready to automate your data room creation? Get started now!**
